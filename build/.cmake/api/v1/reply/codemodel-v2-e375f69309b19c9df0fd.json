@@ -1,0 +1,206 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						5,
+						7
+					]
+				},
+				{
+					"build" : "src/common",
+					"jsonFile" : "directory-src.common-Debug-1d412c5c23197603dd39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/common",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/lexical_analysis",
+					"jsonFile" : "directory-src.lexical_analysis-Debug-e7d4eac498ccb34caa1c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/lexical_analysis",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/regex",
+					"jsonFile" : "directory-src.regex-Debug-04874c866a43b5076693.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/regex",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "src/LL1",
+					"jsonFile" : "directory-src.LL1-Debug-2e9cbf49f0238dde26c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/LL1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/compiler",
+					"jsonFile" : "directory-src.compiler-Debug-4c7bd718bb85a5a119b4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/compiler",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "grammar_analysis",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "LL1::@ff53ff00e9fb03b559d7",
+					"jsonFile" : "target-LL1-Debug-5c29323890e38cae23d7.json",
+					"name" : "LL1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "class::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-class-Debug-07eeed2f476751552bca.json",
+					"name" : "class",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-common-Debug-f3a4050590f254c95fe1.json",
+					"name" : "common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "compiler::@8c227c9ce08cbb09e9a7",
+					"jsonFile" : "target-compiler-Debug-e5d713c0365bfb987072.json",
+					"name" : "compiler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "lexical_analysis::@a4d374fdd93744505ad5",
+					"jsonFile" : "target-lexical_analysis-Debug-2f014082bc7413bbf518.json",
+					"name" : "lexical_analysis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-2fa486c1fa1d8dde54a5.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "regex::@64898c62d2fac9881095",
+					"jsonFile" : "target-regex-Debug-5f488e8bfadff037d26f.json",
+					"name" : "regex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test2-Debug-41c15b0c3fb680f839cd.json",
+					"name" : "test2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/compiler/grammar-analysis/build",
+		"source" : "D:/compiler/grammar-analysis"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

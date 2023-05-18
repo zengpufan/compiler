@@ -1,0 +1,8 @@
+( char \( 
+) char \) 
+addop char \+|\-
+mulop char \*
+exp int 0|1
+If string if
+else string else
+other string other

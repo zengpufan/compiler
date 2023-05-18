@@ -1,0 +1,6 @@
+Addop char \+|\-
+Mulop char \*
+Number int [0-9]*
+( char \( 
+) char \)
+File_end char \$
