@@ -2,7 +2,7 @@
  * @Author: zpf 1600493127@qq.com
  * @Date: 2023-05-18 10:40:36
  * @LastEditors: zpf 1600493127@qq.com
- * @LastEditTime: 2023-05-18 12:24:50
+ * @LastEditTime: 2023-05-18 12:30:12
  * @FilePath: \undefinedc:\Users\zpf\Desktop\cp\compiler\README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -24,7 +24,9 @@ grammar_list记录语法表达式，这些语法表达式由config_reader从配�
 
 词法分析输出一个token序列。  
 语法分析根据词法分析的token序列生成语法分析树（调用grammar_list读取对应的文法）（生成树的数据结构在LL1文件夹中，可以不使用LL1分析）。
-语义分析根据语法分析的生成树进行语义分析  
+语义分析根据语法分析的生成树进行语义分析    
+
+大家如果对项目流程不清楚就看看compiler.cpp中的构造函数，大致的运行流程写的很清楚，我基本上每局都注释了。
 
 ## 代码规范
 变量命名格式不要求，每个人的子模块自建一个文件夹，非必要不要修改其他文件夹，以防冲突。
