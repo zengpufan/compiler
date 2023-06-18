@@ -1,0 +1,33 @@
+analysis,input,action
+lexp $ ,( id ( id ( num ) ) ( id ) ) $ ,lexp -> list 
+list $ ,( id ( id ( num ) ) ( id ) ) $ ,list -> ( lexp-seq ) 
+( lexp-seq ) $ ,( id ( id ( num ) ) ( id ) ) $ ,matched
+lexp-seq ) $ ,id ( id ( num ) ) ( id ) ) $ ,lexp-seq -> id lexp-seq` 
+id lexp-seq` ) $ ,id ( id ( num ) ) ( id ) ) $ ,matched
+lexp-seq` ) $ ,( id ( num ) ) ( id ) ) $ ,lexp-seq` -> lexp lexp-seq` 
+lexp lexp-seq` ) $ ,( id ( num ) ) ( id ) ) $ ,lexp -> list 
+list lexp-seq` ) $ ,( id ( num ) ) ( id ) ) $ ,list -> ( lexp-seq ) 
+( lexp-seq ) lexp-seq` ) $ ,( id ( num ) ) ( id ) ) $ ,matched
+lexp-seq ) lexp-seq` ) $ ,id ( num ) ) ( id ) ) $ ,lexp-seq -> id lexp-seq` 
+id lexp-seq` ) lexp-seq` ) $ ,id ( num ) ) ( id ) ) $ ,matched
+lexp-seq` ) lexp-seq` ) $ ,( num ) ) ( id ) ) $ ,lexp-seq` -> lexp lexp-seq` 
+lexp lexp-seq` ) lexp-seq` ) $ ,( num ) ) ( id ) ) $ ,lexp -> list 
+list lexp-seq` ) lexp-seq` ) $ ,( num ) ) ( id ) ) $ ,list -> ( lexp-seq ) 
+( lexp-seq ) lexp-seq` ) lexp-seq` ) $ ,( num ) ) ( id ) ) $ ,matched
+lexp-seq ) lexp-seq` ) lexp-seq` ) $ ,num ) ) ( id ) ) $ ,lexp-seq -> num lexp-seq` 
+num lexp-seq` ) lexp-seq` ) lexp-seq` ) $ ,num ) ) ( id ) ) $ ,matched
+lexp-seq` ) lexp-seq` ) lexp-seq` ) $ ,) ) ( id ) ) $ ,lexp-seq` -> epsilon 
+) lexp-seq` ) lexp-seq` ) $ ,) ) ( id ) ) $ ,matched
+lexp-seq` ) lexp-seq` ) $ ,) ( id ) ) $ ,lexp-seq` -> epsilon 
+) lexp-seq` ) $ ,) ( id ) ) $ ,matched
+lexp-seq` ) $ ,( id ) ) $ ,lexp-seq` -> lexp lexp-seq` 
+lexp lexp-seq` ) $ ,( id ) ) $ ,lexp -> list 
+list lexp-seq` ) $ ,( id ) ) $ ,list -> ( lexp-seq ) 
+( lexp-seq ) lexp-seq` ) $ ,( id ) ) $ ,matched
+lexp-seq ) lexp-seq` ) $ ,id ) ) $ ,lexp-seq -> id lexp-seq` 
+id lexp-seq` ) lexp-seq` ) $ ,id ) ) $ ,matched
+lexp-seq` ) lexp-seq` ) $ ,) ) $ ,lexp-seq` -> epsilon 
+) lexp-seq` ) $ ,) ) $ ,matched
+lexp-seq` ) $ ,) $ ,lexp-seq` -> epsilon 
+) $ ,) $ ,matched
+$ ,$ ,accept

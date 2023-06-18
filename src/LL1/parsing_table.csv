@@ -1,0 +1,6 @@
+NT T,$,(,),id,num,
+lexp,#,lexp -> list ,#,lexp -> atom ,lexp -> atom ,
+atom,#,#,#,atom -> id ,atom -> num ,
+list,#,list -> ( lexp-seq ) ,#,#,#,
+lexp-seq,#,lexp-seq -> ( lexp-seq ) lexp-seq` ,#,lexp-seq -> id lexp-seq` ,lexp-seq -> num lexp-seq` ,
+lexp-seq`,#,lexp-seq` -> lexp lexp-seq` ,lexp-seq` -> epsilon ,lexp-seq` -> lexp lexp-seq` ,lexp-seq` -> lexp lexp-seq` ,
