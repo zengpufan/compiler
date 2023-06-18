@@ -1,0 +1,42 @@
+S -> S * a P | a P | * a P
+P -> + a P | + a
+a + a
+
+declaration -> type varlist
+type -> int | float
+varlist -> id , varlist | id
+int id , id , id
+
+lexp -> atom | list
+atom -> num | id
+list -> ( lexp-seq )
+lexp-seq -> lexp-seq lexp | lexp
+( id ( id ( num ) ) ( id ) )
+
+S -> A B C
+A -> a | B
+B -> b | C 
+C -> c | epsilon
+
+E -> E + T | T
+T -> T * F | F
+F -> ( E ) | i
+
+S -> Q c | c
+Q -> R b | b
+R -> S  a | a
+
+exp -> exp tete | exp pepe | fefe
+fsfs -> efef eee | afaf
+tktk -> sdf | sddf | tktk sldf
+
+statement -> if-stmt | other
+if-stmt -> if ( exp ) statement else-part
+else-part -> else statement | epsilon
+exp -> 0 | 1
+
+expr -> expr addop term | term
+addop -> + | -
+term -> term mulop factor | factor
+mulop -> *
+factor -> ( expr ) | number

@@ -1,0 +1,4 @@
+lexp -> atom | list
+atom -> num | id
+list -> ( lexp-seq )
+lexp-seq -> lexp-seq lexp | lexp
